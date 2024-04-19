@@ -1,0 +1,236 @@
+.tech1 {
+  color: #000;
+}
+.jez-tech {
+  margin: 0;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: Roboto;
+  display: inline-block;
+  min-width: 6.813rem;
+}
+.healthy-fruit-salad,
+.high-nutrition,
+.jez-tech-is {
+  margin: 0;
+}
+.jez-tech-is-container {
+  position: relative;
+  line-height: 160%;
+}
+.input-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 3rem;
+  color: #575757;
+}
+.copyright-jez-tech {
+  position: relative;
+  line-height: 150%;
+  color: #2b2b2b;
+}
+.visibility-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.187rem;
+  color: #fb9333;
+}
+.feature {
+  position: relative;
+  line-height: 1.375rem;
+  font-weight: 600;
+  color: #fb9333;
+  display: inline-block;
+  min-width: 3.938rem;
+}
+.about-us1,
+.contact1,
+.menu2,
+.promo {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 2.813rem;
+}
+.about-us1,
+.contact1,
+.promo {
+  min-width: 3.313rem;
+}
+.about-us1,
+.contact1 {
+  min-width: 4.125rem;
+}
+.about-us1 {
+  min-width: 4.438rem;
+}
+.error-handler {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.562rem;
+}
+.get-in-touch {
+  position: relative;
+  line-height: 1.375rem;
+  font-weight: 600;
+  color: #fb9333;
+  display: inline-block;
+  min-width: 6.375rem;
+}
+.communication-location-on {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  object-fit: contain;
+}
+.ca-90280,
+.ohio-st-south {
+  margin: 0;
+}
+.ohio-st-south-container {
+  position: relative;
+  line-height: 150%;
+}
+.ohio-st-south-gate-ca-90280-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.062rem 0 0;
+}
+.communication-location-on-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.communication-email {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  object-fit: contain;
+}
+.ourstudiohellocom {
+  position: relative;
+  line-height: 150%;
+  white-space: nowrap;
+}
+.communication-email-parent,
+.ourstudiohellocom-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ourstudiohellocom-wrapper {
+  flex-direction: column;
+  padding: 0.062rem 0 0;
+}
+.communication-email-parent {
+  flex-direction: row;
+  gap: 1rem;
+}
+.communication-call {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  object-fit: contain;
+}
+.div3 {
+  position: relative;
+  line-height: 150%;
+  white-space: nowrap;
+}
+.communication-call-parent,
+.get-in-touch-parent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  padding: 0.062rem 0 0;
+}
+.communication-call-parent,
+.get-in-touch-parent {
+  flex-direction: row;
+  gap: 1rem;
+}
+.get-in-touch-parent {
+  flex-direction: column;
+  gap: 1.437rem;
+}
+.vector-icon {
+  height: 1.375rem;
+  width: 1.625rem;
+  position: relative;
+}
+.instagram-2-1,
+.linkedin-2-1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.vector-parent {
+  width: 8.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+.follow-our-social {
+  position: relative;
+  line-height: 150%;
+}
+.frame-parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+.hue-shifter,
+.opacity-controller {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.opacity-controller {
+  width: 71.625rem;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+.hue-shifter {
+  width: 88.5rem;
+  justify-content: center;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 1rem;
+  color: #575757;
+  font-family: Poppins;
+}
+@media screen and (max-width: 850px) {
+  .opacity-controller {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .jez-tech {
+    font-size: 1.188rem;
+  }
+}
