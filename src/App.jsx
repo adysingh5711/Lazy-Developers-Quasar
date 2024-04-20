@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import QuizMaster from "./pages/Quizmaster";
 import {
   Routes,
   Route,
@@ -50,6 +51,7 @@ function App() {
       <Route path="/" element={<FreeToInteract />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/quiz-master" element={<QuizMaster/>} />
     </Routes>
   );
 }
