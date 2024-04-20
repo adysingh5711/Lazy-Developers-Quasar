@@ -1,0 +1,130 @@
+.e31fb982e6d87f239196db2b3e9ccc-icon {
+  height: 65.188rem;
+  width: 74.031rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -2.794rem;
+  left: -28.962rem;
+  object-fit: contain;
+}
+.loin-wrapper {
+  width: 31.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4.081rem 0 0;
+  box-sizing: border-box;
+  min-width: 31.75rem;
+  max-width: 100%;
+}
+.leaves-icon,
+.penguin-icon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.leaves-icon {
+  align-self: stretch;
+  width: 46.756rem;
+  max-height: 100%;
+  display: none;
+  min-height: 41.125rem;
+}
+.penguin-icon {
+  height: 41.138rem;
+  flex: 1;
+  overflow: hidden;
+  z-index: 1;
+}
+.desktop-7,
+.login-page-design-1,
+.penguin {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.penguin {
+  width: 46.756rem;
+  align-items: flex-start;
+  padding: 0.2rem 0 0;
+  box-sizing: border-box;
+  background-image: url(/public/leaves@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 46.756rem;
+  max-width: 100%;
+}
+.desktop-7,
+.login-page-design-1 {
+  position: relative;
+  overflow: hidden;
+}
+.login-page-design-1 {
+  margin-left: -15.25rem;
+  margin-bottom: -3.813rem;
+  width: 120.438rem;
+  background: linear-gradient(90deg, #fedcc5, #feddc6);
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: 11.168rem 18.75rem 11.562rem;
+  box-sizing: border-box;
+  gap: 1.537rem;
+  debug_commit: 1de1738;
+  max-width: 134%;
+}
+.desktop-7 {
+  width: 100%;
+  height: 56.375rem;
+  background-color: #fff;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1400px) {
+  .loin-wrapper,
+  .penguin-icon {
+    flex: 1;
+  }
+  .penguin {
+    flex: 1;
+    min-width: 100%;
+  }
+  .login-page-design-1 {
+    flex-wrap: wrap;
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+    box-sizing: border-box;
+  }
+  .desktop-7 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .loin-wrapper {
+    min-width: 100%;
+  }
+  .login-page-design-1 {
+    padding-top: 7.25rem;
+    padding-bottom: 7.5rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .loin-wrapper {
+    padding-top: 2.625rem;
+    box-sizing: border-box;
+  }
+  .login-page-design-1 {
+    padding-left: 4.688rem;
+    padding-right: 4.688rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login-page-design-1 {
+    padding: 4.688rem 1.25rem 4.875rem;
+    box-sizing: border-box;
+  }
+}
