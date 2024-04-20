@@ -1,0 +1,121 @@
+.e31fb982e6d87f239196db2b3e9ccc-icon {
+  height: 65.188rem;
+  width: 74.031rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -2.919rem;
+  left: -28.962rem;
+  object-fit: contain;
+}
+.loin-wrapper {
+  width: 31.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.937rem 0 0;
+  box-sizing: border-box;
+  min-width: 31.8rem;
+  max-width: 100%;
+}
+.leaves-icon,
+.penguin-icon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.leaves-icon {
+  align-self: stretch;
+  width: 46.756rem;
+  max-height: 100%;
+  display: none;
+  min-height: 41.125rem;
+}
+.penguin-icon {
+  height: 41.138rem;
+  flex: 1;
+  overflow: hidden;
+  z-index: 1;
+}
+.desktop-1,
+.login-page-design-1,
+.penguin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.penguin {
+  flex: 1;
+  padding: 0.2rem 0 0;
+  background-image: url(/public/leaves@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 30.375rem;
+  max-width: 100%;
+}
+.desktop-1,
+.login-page-design-1 {
+  position: relative;
+  overflow: hidden;
+}
+.login-page-design-1 {
+  margin-left: -11.85rem;
+  width: 113.663rem;
+  background: linear-gradient(90deg, #fedcc5, #feddc6);
+  flex-shrink: 0;
+  padding: 11.168rem 14.868rem 11.437rem 15.287rem;
+  gap: 4.95rem;
+  debug_commit: 1de1738;
+  max-width: 126%;
+}
+.desktop-1 {
+  width: 100%;
+  background-color: #fff;
+  padding: 0.018rem 0 0.043rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .loin-wrapper {
+    flex: 1;
+  }
+  .login-page-design-1 {
+    flex-wrap: wrap;
+    padding-left: 7.625rem;
+    padding-right: 7.438rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .loin-wrapper,
+  .penguin {
+    min-width: 100%;
+  }
+  .login-page-design-1 {
+    padding-top: 7.25rem;
+    padding-bottom: 7.438rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .loin-wrapper {
+    padding-top: 2.563rem;
+    box-sizing: border-box;
+  }
+  .login-page-design-1 {
+    gap: 2.5rem;
+    padding: 4.688rem 3.688rem 4.813rem 3.813rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login-page-design-1 {
+    gap: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    box-sizing: border-box;
+  }
+}

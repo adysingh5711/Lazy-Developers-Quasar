@@ -1,9 +1,9 @@
-import Header from "../components/Header";
-import Container from "../components/Container";
-import FrameComponent3 from "../components/FrameComponent3";
-import FrameComponent2 from "../components/FrameComponent2";
-import FrameComponent1 from "../components/FrameComponent1";
-import FrameComponent from "../components/FrameComponent";
+import {
+  Header,
+  Container,
+  FrameComponent,
+  FrameComponent3,
+} from "../components/Home/index.js";
 import "./FreeToInteract.css";
 
 const FreeToInteract = () => {
@@ -41,8 +41,6 @@ const FreeToInteract = () => {
         <Header />
         <Container />
         <FrameComponent3 />
-        <FrameComponent2 />
-        <FrameComponent1 />
         <FrameComponent />
       </main>
     </div>

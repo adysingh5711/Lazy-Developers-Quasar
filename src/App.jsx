@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import FreeToInteract from "./pages/FreeToInteract";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +48,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<FreeToInteract />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 }

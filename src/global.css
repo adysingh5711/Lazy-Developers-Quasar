@@ -1,6 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@font-face {
+  font-family: "Gilroy-Heavy";
+  src: url("/public/Gilroy-Heavy.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/public/Gilroy-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/public/Gilroy-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("/public/Gilroy-Regular.ttf");
+  font-weight: 400;
+}
 body {
   margin: 0;
   line-height: normal;

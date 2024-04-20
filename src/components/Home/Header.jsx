@@ -1,26 +1,32 @@
 import "./Header.css";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+  function handleSignUp() {
+    navigate("/signup ");
+  }
   return (
     <section className="header">
       <header className="top-header">
         <div className="logo">
           <h3 className="logo1">
             <span className="jez">
-              <span>JEZ</span>
+              <span>ECO</span>
               <span className="span">{`  `}</span>
             </span>
-            <b className="tech">{`TECH  `}</b>
+            <b className="tech">{`PLAYGROUND  `}</b>
           </h3>
         </div>
         <nav className="menu-header">
           <b className="home">Home</b>
-          <div className="learn">Learn</div>
           <div className="why-us">Why Us</div>
           <div className="contact">Contact</div>
         </nav>
         <button className="button">
-          <div className="sign">Sign</div>
+          <div className="sign" onClick={handleSignUp}>
+            Sign Up
+          </div>
         </button>
       </header>
       <div className="header1">
