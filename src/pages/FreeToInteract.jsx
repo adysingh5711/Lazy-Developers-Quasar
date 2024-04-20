@@ -2,8 +2,6 @@ import {
   Header,
   Container,
   FrameComponent,
-  FrameComponent1,
-  FrameComponent2,
   FrameComponent3,
 } from "../components/Home/index.js";
 import "./FreeToInteract.css";
@@ -43,8 +41,6 @@ const FreeToInteract = () => {
         <Header />
         <Container />
         <FrameComponent3 />
-        <FrameComponent2 />
-        <FrameComponent1 />
         <FrameComponent />
       </main>
     </div>

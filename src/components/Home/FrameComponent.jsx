@@ -6,22 +6,20 @@ const FrameComponent = () => {
       <div className="opacity-controller">
         <div className="visibility-toggle">
           <h3 className="jez-tech">
-            <span>{`JEZ `}</span>
-            <span className="tech1">TECH</span>
+            <span>{`ECO `}</span>
+            <span className="tech1">PLAYGROUND</span>
           </h3>
           <div className="input-filter">
             <div className="jez-tech-is-container">
-              <p className="jez-tech-is">{`Jez Tech is the pioneer of `}</p>
-              <p className="healthy-fruit-salad">{`healthy fruit salad with `}</p>
-              <p className="high-nutrition">high nutrition.</p>
+              <p className="jez-tech-is">{`Ecoplayground is the pioneer of `}</p>
+              <p className="healthy-fruit-salad">{`kid's education`}</p>
             </div>
           </div>
-          <div className="copyright-jez-tech">©Copyright Jez Tech</div>
+          <div className="copyright-jez-tech">©Copyright EcoPlayground</div>
         </div>
         <div className="error-handler">
           <div className="feature">Feature</div>
           <div className="menu2">Menu</div>
-          <div className="promo">Promo</div>
           <div className="contact1">Contact</div>
           <div className="about-us1">About us</div>
         </div>
