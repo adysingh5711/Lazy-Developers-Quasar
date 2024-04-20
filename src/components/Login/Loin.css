@@ -103,6 +103,7 @@
   align-items: flex-start;
 }
 .rectangle-parent {
+  width: 60%;
   border-radius: 3.97px;
   background-color: #fff;
   flex-direction: row;

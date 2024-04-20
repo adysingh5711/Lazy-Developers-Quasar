@@ -87,9 +87,7 @@ const Loin = () => {
       <div className="register-link">
         <div className="dont-have-an">Don&apos;t have an account yet?</div>
         <div className="register-for-free">
-          <Link to="/register" className="btn btn-secondary">
-            Register
-          </Link>
+          <Link to="/signup">Register</Link>
         </div>
       </div>
     </div>
